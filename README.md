@@ -5,9 +5,9 @@
 
 ## Schematic
 
-This is my first foray into using KiCad.  The project could probably add a (20/)
-24V TVS added to to handle voltage spikes but I don't have any on hand but can
-add that later.
+This is my first foray into using KiCad.  The project could probably add a 24V
+TVS added to to handle voltage spikes but I don't have any on hand but can add
+that later.
 
 The U2 Block represents a USB-C Power-Delivery Module pegged to 20V output.
 These are cheap.  The easy-to-find linear solenoids are 24V and so are running 
