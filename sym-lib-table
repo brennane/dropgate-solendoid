@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Solenoid")(type "KiCad")(uri "${KIPRJMOD}/Solenoid.kicad_sym")(options "")(descr ""))
+)
