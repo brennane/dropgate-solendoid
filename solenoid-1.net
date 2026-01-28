@@ -1,13 +1,13 @@
 (export (version "E")
   (design
     (source "/Users/breevans/Documents/solenoid-1/solenoid-1.kicad_sch")
-    (date "2026-01-28T15:41:47-0600")
+    (date "2026-01-28T15:59:38-0600")
     (tool "Eeschema 9.0.7")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "Pinewood Derby Starting Gate Solenoid")
         (company "Leon Springs Baptist Church AWANA Program")
-        (rev "11")
+        (rev "12")
         (date "2026-01-28")
         (source "solenoid-1.kicad_sch")
         (comment (number "1") (value "Signal 9V Battery (3V-12V) ( Isolated via Optocoupler )"))

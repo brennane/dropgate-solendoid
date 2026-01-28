@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pinewood Derby Starting Gate Solenoid")
 		(date "2026-01-28")
-		(rev "11")
+		(rev "12")
 		(company "Leon Springs Baptist Church AWANA Program")
 		(comment 1 "Signal 9V Battery (3V-12V) ( Isolated via Optocoupler )")
 		(comment 2 "Relay Timer Trimmer: 50ms - 5.2s")
