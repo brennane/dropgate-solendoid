@@ -25,4 +25,6 @@ Timer.  There is a trimmer pot on the board that can sweep from about 1/2 sec to
 
 
 Use the Online viewer at <https://kicanvas.org> to
-view the Schematic: [solenoid-1.kicad_sch](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fbrennane%2Fdropgate-solendoid%2Fblob%2Fmain%2Fsolenoid-1.kicad_sch)
+view the schematic: [solenoid-1.kicad_sch](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fbrennane%2Fdropgate-solendoid%2Fblob%2Fmain%2Fsolenoid-1.kicad_sch)
+
+view the no-555 timer schematic: [minimal.kicad_sch](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fbrennane%2Fdropgate-solendoid%2Fblob%2Fmain%2Fminimal.kicad_sch)
