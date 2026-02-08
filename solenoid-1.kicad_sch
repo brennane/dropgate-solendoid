@@ -6,14 +6,13 @@
 	(paper "A5" portrait)
 	(title_block
 		(title "Pinewood Derby Starting Gate Solenoid")
-		(date "2026-02-02")
-		(rev "13")
+		(date "2026-02-03")
+		(rev "15")
 		(company "Leon Springs Baptist Church AWANA Program")
 		(comment 1 "Signal 9V Battery (3V-12V) ( Isolated via Optocoupler )")
 		(comment 2 "Relay Timer Trimmer: 50ms - 5.2s")
 		(comment 3 "USBC Power 65W ( Min 45W ) ")
 		(comment 4 "Solenoid  24V 400mA  ( Max 24V 2A )")
-		(comment 5 "Removed 1N4148 from PC817 C/E")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -3497,12 +3496,6 @@
 		(uuid "61400d8c-1386-4c88-8b3d-3bbcfd97a5b3")
 	)
 	(junction
-		(at 60.96 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6be19ace-6fc8-45c1-b914-64b6a55a287a")
-	)
-	(junction
 		(at 69.85 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3627,12 +3620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4bf7bcb-cec6-4542-95d4-58669d73971c")
-	)
-	(junction
-		(at 60.96 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4dc681b-d4fe-412c-b473-3a4e9017e021")
 	)
 	(junction
 		(at 114.3 119.38)
@@ -3964,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 60.96 85.09)
+			(xy 60.96 81.28) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0.381)
@@ -4138,16 +4125,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "5a3fa009-0329-49e9-88a5-e546a47fa4ba")
-	)
-	(wire
-		(pts
-			(xy 60.96 105.41) (xy 73.66 105.41)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "5dcc59f7-c4ad-4db6-8c9e-d9c61c5b4ff2")
 	)
 	(wire
 		(pts
@@ -4522,17 +4499,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 85.09) (xy 60.96 90.17)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "a1704178-dc5f-4b13-ab20-db513df2a0a4")
-	)
-	(wire
-		(pts
 			(xy 83.82 102.87) (xy 96.52 102.87)
 		)
 		(stroke
@@ -4561,16 +4527,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "a6526780-55ff-4871-97a9-1938fde1f033")
-	)
-	(wire
-		(pts
-			(xy 71.12 85.09) (xy 73.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88d5fba-de99-49c1-8384-38cf0b865fd9")
 	)
 	(wire
 		(pts
@@ -4676,16 +4632,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 73.66 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac3768d-baee-4936-a3cf-0d3a30f48a7d")
-	)
-	(wire
-		(pts
 			(xy 125.73 133.35) (xy 109.22 133.35)
 		)
 		(stroke
@@ -4756,17 +4702,6 @@
 			(type default)
 		)
 		(uuid "c3159cff-a165-46b4-9bf4-a2acaa1104d2")
-	)
-	(wire
-		(pts
-			(xy 60.96 85.09) (xy 63.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "c5af11aa-019d-4a24-ac35-f5ee79a83ee7")
 	)
 	(wire
 		(pts
@@ -4850,16 +4785,6 @@
 			(type default)
 		)
 		(uuid "d08997e0-5f42-45e7-90a4-12a056240122")
-	)
-	(wire
-		(pts
-			(xy 73.66 96.52) (xy 73.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ac2465-51d7-41df-8204-89bca81ddafd")
 	)
 	(wire
 		(pts
@@ -5141,7 +5066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224da9ec-cbc8-403a-907b-5a066f5999c9")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 110.49 67.31 90)
 			(effects
 				(font
@@ -5149,7 +5074,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "470"
 			(at 110.49 69.85 90)
 			(effects
 				(font
@@ -5211,7 +5136,7 @@
 		(instances
 			(project ""
 				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25213a46-bcd9-4bad-93d9-43bae6b618e6")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 101.473 80.01 0)
 			(effects
 				(font
@@ -5234,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Value" "ORANGE VF1.2 IF 20mA"
+		(property "Value" "ORANGE VF2.1 IF 20mA"
 			(at 101.473 77.47 0)
 			(effects
 				(font
@@ -5296,7 +5221,7 @@
 		(instances
 			(project "solenoid-1"
 				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -5576,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100K"
 			(at 67.31 128.2699 0)
 			(effects
 				(font
@@ -5752,7 +5677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "4.7uF"
 			(at 66.04 142.2399 0)
 			(effects
 				(font
@@ -5831,7 +5756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a9e21fe-4f5b-4257-aaf6-ef02967c896d")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 123.19 139.6999 0)
 			(effects
 				(font
@@ -5840,7 +5765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 123.19 142.2399 0)
 			(effects
 				(font
@@ -5903,7 +5828,7 @@
 		(instances
 			(project ""
 				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6004,93 +5929,9 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:TSAL4400")
-		(at 66.04 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "403117e3-f41e-434c-98dc-a2e3fb8e5e0c")
-		(property "Reference" "LED2"
-			(at 67.183 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GREEN VF 3.2 IF 20mA"
-			(at 74.168 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 66.04 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 67.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Link" ""
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Summary" ""
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a87693a-edb4-47cb-a33b-6255017a4f84")
-		)
-		(pin "1"
-			(uuid "e21ce3d6-2dab-4309-9ab5-348cb0336ee8")
-		)
-		(instances
-			(project ""
-				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 46.99 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6098,7 +5939,7 @@
 		(dnp no)
 		(uuid "412d1622-d02f-4ce7-9dbd-e1979a185336")
 		(property "Reference" "R3"
-			(at 49.53 129.5399 0)
+			(at 44.45 129.5399 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6107,7 +5948,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 49.53 132.0799 0)
+			(at 44.45 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45469d7c-6563-424d-a274-3cffeb3b8ca8")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 106.68 138.43 90)
 			(effects
 				(font
@@ -6255,7 +6096,7 @@
 		(instances
 			(project ""
 				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "1K"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -6715,7 +6556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE VF 3.2 IF 20mA"
+		(property "Value" "RED VF 2.1 IF 20mA"
 			(at 34.798 157.48 90)
 			(effects
 				(font
@@ -7441,8 +7282,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K (RM065)"
-			(at 66.04 120.6499 0)
+		(property "Value" "1M (RM065)"
+			(at 67.564 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 106.6736 123.19 90)
 			(effects
 				(font
@@ -7951,94 +7792,6 @@
 			(project ""
 				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea1e5e07-98e3-4ddf-8268-e70b9c8a130d")
-		(property "Reference" "R8"
-			(at 76.2 92.7099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 76.2 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Link" ""
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Summary" ""
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f361b53-8354-4bc6-928c-5023107ee294")
-		)
-		(pin "2"
-			(uuid "b654886d-7f00-4e7e-9ee5-4faf4bef637c")
-		)
-		(instances
-			(project ""
-				(path "/0c404785-1fe3-436f-9caa-e515805d096a"
-					(reference "R8")
 					(unit 1)
 				)
 			)
